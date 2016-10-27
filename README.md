@@ -7,8 +7,10 @@
 pip install bonsai-cli
 bonsai configure
 ```
-1. Install the simulator's requirements:
+1. git clone this repository
+2. Install the simulator's requirements:
 ```
+cd gym-mountaincar-sample
 pip install -r requirements.txt
 ```
 
@@ -22,7 +24,8 @@ commands below operate on the mountaincar.bproj Bonsai project file.
 bonsai brain create <brain_name>
 ```
 
-1. Load your Inkling project into your brain. Review our [Inkling Guide](http://docs.bons.ai/inkling-guide-pages/introduction) for help with Inkling.
+2. Load your Inkling project into your brain. Review our [Inkling Guide](http://docs.bons.ai/inkling-guide-pages/introduction)   
+   for help with Inkling.
 ```
 bonsai load
 ```
