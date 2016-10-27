@@ -2,13 +2,13 @@
 
 ### INSTALLATION
 1. Review [requirements](http://docs.bons.ai/getting-started/lets-get-started) for installing the Bonsai CLI.
-1. Install the Bonsai Command Line Interface (CLI).
+2. Install the Bonsai Command Line Interface (CLI).
 ```
 pip install bonsai-cli
 bonsai configure
 ```
-1. git clone this repository
-2. Install the simulator's requirements:
+3. git clone this repository
+4. Install the simulator's requirements:
 ```
 cd gym-mountaincar-sample
 pip install -r requirements.txt
