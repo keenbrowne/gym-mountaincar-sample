@@ -1,0 +1,16 @@
+{
+  "brains": [{
+    "user": "cksbonsai",
+    "name": "myBrain",
+    "server": "beta.bons.ai"
+  }],
+  "src": ["/*"]
+  "training_sources": [{
+    "simulator": "openai-gym",
+    "language": "python",
+    "python": "3.5",
+    "install": "pip install -r requirements.txt", # cut this and have pre-canned reqs?
+    "script": "python mountaincar_simulator.py --foo",
+  }]
+}
+

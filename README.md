@@ -13,25 +13,26 @@ pip install -r requirements.txt
 ```
 
 ### HOW TO TRAIN YOUR BRAIN
-1. If you haven't already created a BRAIN at the website, create one now:
+Training involves loading inkling and associated files into the AI Engine. The
+commands below operate on the mountaincar.bproj Bonsai project file.
+
+1. If you haven't already created a BRAIN at the website, create one now. This
+   command adds a link from the local Bonsai project file to the BRAIN:
 ```
-bonsai brain create <your_brain>
+bonsai brain create <brain_name>
 ```
-1. Load your Inkling file into your brain. Review our [Inkling Guide](http://docs.bons.ai/inkling-guide-pages/introduction) for help with Inkling.
+
+1. Load your Inkling project into your brain. Review our [Inkling Guide](http://docs.bons.ai/inkling-guide-pages/introduction) for help with Inkling.
 ```
-bonsai brain load <your_brain> mountaincar.ink
+bonsai load
 ```
 1. Enable training mode for your brain. Please note that training may take many hours.
 ```
-bonsai brain train start <your_brain>
-```
-1. Connect a simulator for training. For inspiration, check out our [Mountain Car demo](https://github.com/BonsaiAI/gym-mountaincar-sample).
-```
-python mountaincar_simulator.py --train-brain=<your_brain> --headless
+bonsai train start
 ```
 1. When training has hit a sufficient accuracy, disable training mode.
 ```
-bonsai brain train stop <your_brain>
+bonsai train stop
 ```
 
 Questions? View the FAQ
